@@ -1,0 +1,180 @@
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #222;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+
+.main{
+   display: flex;
+}
+
+.leftside{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.rightside{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  font-family: 'Rufina', serif;
+  color: #222;
+}
+
+img {
+  height: 500px;
+  object-fit: cover;
+  object-position: 50%;
+}
+
+.h3 {
+  position: absolute;
+  bottom: 150px;
+  left: 50px;
+  font-size: 40px;
+}
+
+.h1 {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  font-size: 60px;
+}
+
+.p1 {
+  height: 550px;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  line-height: 1.8;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.quote1 {
+  height: 400px;
+  margin-top: 60px;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  align-items: baseline;
+  background-color: #222;
+  color: white;
+  font-family: 'Rufina', serif;
+}
+
+.quote1 blockquote {
+  font-size: 60px;
+  position: relative;
+  padding: 20px;
+  margin: 0;
+}
+
+.quote1 blockquote::before {
+  content: open-quote;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  font-size: 120px;
+}
+
+.p2{
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  line-height: 1.8;
+  margin: 20px;
+  height: 500px;
+}
+
+.chaptertitle{
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.partitle{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.p2text{
+  font-size: 14px;
+  margin: 30px 0;
+}
+
+.subtitle{
+  font-size: 15px;
+  font-weight: 900;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+
+.quote2 {
+  height: 350px;
+  margin-top: 120px;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  align-items: baseline;
+  background-color: #222;
+  color: white;
+  font-family: 'Rufina', serif;
+}
+
+.quote2 blockquote {
+  font-size: 60px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.quote2 blockquote::before {
+  content: open-quote;
+  padding: 20px;
+  margin: 0;
+  top: 0;
+  left: 0;
+  font-size: 120px;
+}
+
+.quote3 {
+  height: 800px;
+  margin-top: 200px;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  align-items: baseline;
+  background-color: #222;
+  color: white;
+  font-family: 'Rufina', serif;
+}
+
+.quote3 blockquote {
+  font-size: 60px;
+  position: relative;
+  padding: 20px;
+  margin: 0;
+}
+
+.quote3 blockquote::before {
+  content: open-quote;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  font-size: 120px;
+}

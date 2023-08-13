@@ -1,0 +1,51 @@
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: purple;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  padding-left: 100px;
+}
+
+.button1{
+  height: 30px;
+  width: 100px;
+  background-color: cyan;
+}
+
+.button2{
+  height: 30px;
+  width: 150px;
+  background-color: cyan;
+}
+
+.container{
+  height: 500px;
+  width: 90%;
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.main{
+  background-color: yellow;
+  flex-grow: 4;
+}
+
+.side{
+  background-color: lime;
+  flex-grow: 1;
+}
+
+.footer{
+  height: 80px;
+  width: 90%;
+  background-color: lightgrey;
+  margin-left: 100px;
+  margin-right: 100px;
+}

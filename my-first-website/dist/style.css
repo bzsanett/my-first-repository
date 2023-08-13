@@ -1,0 +1,162 @@
+.header {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+
+.h3 {
+  position: absolute;
+  bottom: 155px;
+  left: 385px;
+  font-size: 46px;
+}
+
+.h1 {
+  position: absolute;
+  bottom: 55px;
+  left: 385px;
+  font-size: 92px;
+}
+
+.p1 {
+  width: 55%;
+  margin: 70px auto;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+.quote1 {
+  width: 60%;
+  height: 200px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  align-items: baseline;
+  background-color: #222;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.quote1 blockquote {
+  font-size: 60px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.quote1 blockquote::before {
+  content: open-quote;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  font-size: 120px;
+}
+
+.p2{
+  width: 55%;
+  margin: 40px auto;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  line-height: 1.8;
+}
+
+.chaptertitle{
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.partitle{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.p2text{
+  font-size: 14px;
+  margin: 30px 0;
+}
+
+.subtitle{
+  font-size: 15px;
+  font-weight: 900;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+}
+
+.quote2 {
+  width: 60%;
+  height: 250px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  align-items: baseline;
+  background-color: #222;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.quote2 blockquote {
+  font-size: 60px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.quote2 blockquote::before {
+  content: open-quote;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  font-size: 120px;
+}
+
+.quote3 {
+  width: 60%;
+  height: 250px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  align-items: baseline;
+  background-color: #222;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.quote3 blockquote {
+  font-size: 60px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.quote3 blockquote::before {
+  content: open-quote;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  font-size: 120px;
+}
+
+.blackline{
+  width: 55%;
+  height: 5px;
+  background-color: #222;
+  padding: 0;
+  margin: 0 auto;
+}
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merriweather', serif;
